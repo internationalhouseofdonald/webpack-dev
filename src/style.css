@@ -1,0 +1,13 @@
+/* Make SCSS variable for this font */
+/* Follow the W3Schools guide for using @font-face (not the Webpack guide in this case) */
+@font-face {
+  font-family: Sedgwick;
+  src: url('./SedgwickAveDisplay-Regular.ttf');
+}
+
+.hello {
+  color: red;
+  font-family: Sedgwick;
+  font-size: 8rem;
+  background: url('./icon.png');
+}
